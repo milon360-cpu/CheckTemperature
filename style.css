@@ -1,0 +1,93 @@
+/* COMMON CODE STARTED HERE  */
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+  
+
+}
+/* COMMON CODE END HERE  */
+ .container 
+{
+  background:linear-gradient(rgba(202, 69, 69, 0),rgba(0, 128, 0, 0.5)), url('cover.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 120px;
+ 
+}
+.containe-item 
+{
+
+ /* background-color: aqua; */
+ height: 400px;
+ max-width: 800px;
+ margin: 0px auto;
+ padding: 10px 40px;
+ /* background-color: green; */
+
+}
+.containe-item h1
+{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.containe-item input
+{
+  width: 80%;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(55, 63, 54, 0.616);
+  padding: 5px 30px;
+  outline: none;
+  font-size: 20px;
+  transition: .1s;
+}
+.containe-item button
+{
+  width: 15%;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #3A5E6C;
+  border: 1px solid rgb(246, 246, 246);
+  color: white;
+  transition: .3s;
+
+}
+.containe-item input:focus
+{
+  border: 1px solid rgb(101, 184, 240);
+}
+.containe-item button:hover 
+{
+  /* border: 1px solid goldenrod; */
+  background-color: rgb(32, 31, 31);
+}
+#city-name 
+{
+  margin-top: 20px;
+  color: white;
+  transition: .2s;
+}
+#temp 
+{
+  margin-top: -15px;
+  color: white;
+  margin-left: -10px;
+  transition: .2s;
+}
+@media screen and (max-width:600px) 
+{
+  .containe-item button 
+  {
+    font-size: 15px;
+  }
+}
